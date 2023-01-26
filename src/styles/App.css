@@ -1,0 +1,9 @@
+.spam-strong {
+  font-weight: 600;
+}
+
+.button-nav {
+  background-color: rgba(24, 124, 212, 0);
+  width: 200px;
+  height: 75px;
+}
