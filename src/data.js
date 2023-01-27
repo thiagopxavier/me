@@ -8,10 +8,6 @@ const mainList = [
     name: 'Projetos',
     route: '/project',
   },
-  {
-    name: 'Contatos',
-    route: '/contact',
-  },
 ];
 
 const aboutList = [
@@ -20,17 +16,13 @@ const aboutList = [
     name: 'Projetos',
     route: '/project',
   },
-  {
-    name: 'Contatos',
-    route: '/contact',
-  },
 ];
 
 const projectList = [
 
   {
-    name: 'Contatos',
-    route: '/contact',
+    name: 'Sobre mim',
+    route: '/about',
   },
 ];
 

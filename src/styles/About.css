@@ -3,8 +3,9 @@
   background-attachment: fixed;
   padding: 0;
   margin: 0;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
+  display: flex;
   margin: 0;
 }
 
@@ -13,4 +14,56 @@
   justify-content: flex-start;
   flex-direction: column;
   width: 21%;
+}
+
+.about-right {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+}
+
+.about-txt {
+  width: 40%;
+  padding: 20px;
+}
+
+.about-h1 {
+  padding-bottom: 20px;
+  font-style: italic;
+}
+
+.about-p {
+  padding-bottom: 40px;
+}
+
+.about-my-picture {
+  width: 400px;
+  height: 400px;
+  margin-top: 90px;
+  margin-right: 100px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding-bottom: 5px;
+  margin-left: 20px;
+}
+
+.about-contact {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 110px;
+}
+
+.link-contact {
+  padding-right: 5px;
+}
+
+.about-icons {
+  width: 22px;
 }

@@ -1,0 +1,23 @@
+.project-page {
+  background: linear-gradient(90deg, #C5BC45 21%, #ffffff 0%);
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  margin: 0;
+}
+
+.project-left {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 21%;
+}
+
+.project-right {
+  display: flex;
+  justify-content: space-between;
+  width: 79%;
+}

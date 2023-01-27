@@ -36,11 +36,6 @@ class Main extends Component {
             </p>
 
           </div>
-          <img
-            className="main-my-picture"
-            src="https://media.discordapp.net/attachments/1040280729801728001/1068022512899850260/eu.jpg"
-            alt="Minha Foto"
-          />
         </div>
 
       </main>
