@@ -34,11 +34,17 @@ p {
   margin: 0;
   margin-top: 30px;
   color: white;
+  text-align: center;
+  margin-bottom: 130px;
+  background-color: #00000000;
+  width: 400px;
+  align-self: center;
+  border: none;
 }
 
-.main-my-name {
-  text-align: center;
-  margin-bottom: 50px;
+.main-my-name:hover {
+  transition: 0.1s;
+  scale: 1.02;
 }
 
 .main-div-about {

@@ -3,7 +3,18 @@
 }
 
 .button-nav {
-  background-color: rgba(24, 124, 212, 0);
-  width: 200px;
-  height: 75px;
+  transition: 0.1s;
+  background-color: #00000000;
+  font-size: 40px;
+  box-shadow: 10px 1px 1px black;
+  margin: 10px;
+  border: none;
+  padding-bottom: 45px;
+  width: 250px;
+  height: 40px;
+}
+
+.button-nav:hover {
+  transition: 0.1s;
+  scale: 1.09;
 }

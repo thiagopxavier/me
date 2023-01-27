@@ -1,22 +1,27 @@
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 
 class ButtonNav extends Component {
   render() {
-    const { listName } = this.props;
+    const { listName: { name, route } } = this.props;
     return (
-      <button
-        className="button-nav"
-        type="button"
-      >
-        { listName }
-      </button>
+      <Link className="link" to={ route }>
+        <button
+          className="button-nav"
+          type="button"
+        >
+          {console.log(route, name)}
+          { name }
+        </button>
+      </Link>
     );
   }
 }
 
 ButtonNav.propTypes = {
-  listName: PropTypes.string.isRequired,
-};
+  name: PropTypes.string,
+  route: PropTypes.string,
+}.isRequired;
 
 export default ButtonNav;

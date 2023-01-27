@@ -1,15 +1,17 @@
+import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import ButtonNav from '../components/ButtoNav';
+import TitleName from '../components/TitleName';
 import '../styles/Main.css';
 import listOfButtons from '../data';
 
 class Main extends Component {
   render() {
+    const { history } = this.props;
     return (
       <main className="main-page">
-
         <div className="main-left">
-          <h1 className="main-my-name">Thiago X.</h1>
+          <TitleName history={ history } />
           <div className="main-buttons-nav">
             {listOfButtons.map((element, index) => (
               <ButtonNav key={ index } listName={ element } />
@@ -45,5 +47,9 @@ class Main extends Component {
     );
   }
 }
+
+Main.propTypes = {
+  history: PropTypes.any,
+}.isRequired;
 
 export default Main;

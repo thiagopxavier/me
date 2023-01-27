@@ -7,7 +7,11 @@ class App extends Component {
   render() {
     return (
       <Switch>
-        <Route path="/" component={ Main } />
+        <Route
+          path="/"
+          render={ (props) => (<Main { ...props } />) }
+        />
+        {/* <Route path="/" component={ Main } /> */}
       </Switch>
 
     );
