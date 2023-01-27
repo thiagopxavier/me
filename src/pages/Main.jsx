@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import ButtonNav from '../components/ButtoNav';
 import TitleName from '../components/TitleName';
 import '../styles/Main.css';
-import listOfButtons from '../data';
+import { mainList } from '../data';
 
 class Main extends Component {
   render() {
@@ -12,11 +12,11 @@ class Main extends Component {
       <main className="main-page">
         <div className="main-left">
           <TitleName history={ history } />
-          <div className="main-buttons-nav">
-            {listOfButtons.map((element, index) => (
-              <ButtonNav key={ index } listName={ element } />
+          <nav className="main-buttons-nav">
+            {mainList.map((element, index) => (
+              <ButtonNav key={ index } list={ element } />
             ))}
-          </div>
+          </nav>
         </div>
 
         <div className="main-right">

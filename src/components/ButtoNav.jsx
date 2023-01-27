@@ -4,14 +4,13 @@ import React, { Component } from 'react';
 
 class ButtonNav extends Component {
   render() {
-    const { listName: { name, route } } = this.props;
+    const { list: { name, route } } = this.props;
     return (
       <Link className="link" to={ route }>
         <button
           className="button-nav"
           type="button"
         >
-          {console.log(route, name)}
           { name }
         </button>
       </Link>
