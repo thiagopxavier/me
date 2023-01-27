@@ -1,11 +1,11 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
-import ButtonNav from '../components/ButtoNav';
-import TitleName from '../components/TitleName';
-import '../styles/Project.css';
-import { projectList } from '../data';
+import ButtonNav from '../../components/ButtoNav';
+import TitleName from '../../components/TitleName';
+import { projectList } from '../../data';
+import '../../styles/Project.css';
 
-class Project extends Component {
+class WebPorject extends Component {
   render() {
     const { history } = this.props;
     return (
@@ -19,15 +19,15 @@ class Project extends Component {
           </nav>
         </div>
         <div className="project-right">
-          <h1>Projetos</h1>
+          <h1>Web Projects</h1>
         </div>
       </main>
     );
   }
 }
 
-Project.propTypes = {
+WebPorject.propTypes = {
   history: PropTypes.any,
 }.isRequired;
 
-export default Project;
+export default WebPorject;

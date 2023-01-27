@@ -1,3 +1,5 @@
+const projectRoute = '/project/web';
+
 const mainList = [
 
   {
@@ -6,7 +8,11 @@ const mainList = [
   },
   {
     name: 'Projetos',
-    route: '/project',
+    route: projectRoute,
+  },
+  {
+    name: 'Contatos',
+    route: '/contact',
   },
 ];
 
@@ -14,15 +20,31 @@ const aboutList = [
 
   {
     name: 'Projetos',
-    route: '/project',
+    route: projectRoute,
+  },
+  {
+    name: 'Contatos',
+    route: '/contact',
   },
 ];
 
 const projectList = [
 
   {
-    name: 'Sobre mim',
-    route: '/about',
+    name: 'Web',
+    route: projectRoute,
+  },
+  {
+    name: 'Jogos',
+    route: '/project/games',
+  },
+  {
+    name: 'Galeria',
+    route: '/project/gallery',
+  },
+  {
+    name: 'Sonoplastia',
+    route: '/project/sound-design',
   },
 ];
 
