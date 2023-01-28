@@ -101,9 +101,9 @@ class About extends Component {
               <li>Jest</li>
               <li>C#</li>
               <li>GDScript</li>
-              <li>Game Engine: Unity - Godot - Unreal</li>
-              <li>Modelagem 3D: Blender - Maya</li>
-              <li>Sonoplastia: Audacity - FL Studio</li>
+              <li>Game Engine: Unity | Godot | Unreal</li>
+              <li>Modelagem 3D: Blender | Maya</li>
+              <li>Sonoplastia: Audacity | FL Studio</li>
             </ul>
           </div>
           <div>
