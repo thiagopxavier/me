@@ -2,18 +2,17 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import AboutButton from '../../components/AboutButton';
 import ButtonNav from '../../components/ButtoNav';
-import ProjectCard from '../../components/ProjectCard';
 import TitleName from '../../components/TitleName';
-import { projectList, webProjects } from '../../data';
+import { projectList, soundDesing } from '../../data';
 import '../../styles/Project.css';
 
-class WebPorject extends Component {
+class SoundProject extends Component {
   state = {
     hasProject: false,
   };
 
   componentDidMount() {
-    if (webProjects.length !== 0) {
+    if (soundDesing.length !== 0) {
       this.setState({
         hasProject: true,
       });
@@ -39,21 +38,15 @@ class WebPorject extends Component {
           <AboutButton />
         </div>
         <div className="project-right">
-          <h1 className="h1-project">Aplicações Web</h1>
-          <div className="div-card">
-            { webProjects.map((project) => (
-              <ProjectCard key={ project.id } project={ project } />
-            ))}
-          </div>
+          <h1 className="h1-project">Sonoplastia</h1>
         </div>
-
       </main>
     );
   }
 }
 
-WebPorject.propTypes = {
+SoundProject.propTypes = {
   history: PropTypes.any,
 }.isRequired;
 
-export default WebPorject;
+export default SoundProject;

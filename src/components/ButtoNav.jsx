@@ -1,19 +1,24 @@
 import PropTypes from 'prop-types';
-import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 
 class ButtonNav extends Component {
+  handleClick = () => {
+    const { history, list: { route } } = this.props;
+    history.push(route);
+  };
+
   render() {
-    const { list: { name, route } } = this.props;
+    const { list: { name } } = this.props;
     return (
-      <Link className="link" to={ route }>
-        <button
-          className="button-nav"
-          type="button"
-        >
-          { name }
-        </button>
-      </Link>
+      <button
+        className={ `button-nav ${name === 'Sonoplastia'
+          ? 'button-disabled' : 'button-enable'}` }
+        type="button"
+        onClick={ this.handleClick }
+        disabled={ name === 'Sonoplastia' }
+      >
+        { name }
+      </button>
     );
   }
 }

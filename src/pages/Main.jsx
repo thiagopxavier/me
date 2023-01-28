@@ -14,7 +14,7 @@ class Main extends Component {
           <TitleName history={ history } />
           <nav className="main-buttons-nav">
             {mainList.map((element, index) => (
-              <ButtonNav key={ index } list={ element } />
+              <ButtonNav key={ index } list={ element } history={ history } />
             ))}
           </nav>
         </div>

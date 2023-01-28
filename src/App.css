@@ -14,7 +14,7 @@
   height: 40px;
 }
 
-.button-nav:hover {
+.button-enable:hover {
   transition: 0.1s;
   scale: 1.02;
 }
