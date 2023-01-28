@@ -3,10 +3,11 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import Main from './pages/Main';
 import About from './pages/About';
+import NotFound from './pages/NotFound';
 import WebProject from './pages/projects/WebProject';
 import GameProject from './pages/projects/GameProject';
 import Gallery from './pages/projects/Gallery';
-import SoundProject from './pages/projects/SoundProject';
+// import SoundProject from './pages/projects/SoundProject';
 
 class App extends Component {
   render() {
@@ -16,8 +17,9 @@ class App extends Component {
         <Route path="/project/web" component={ WebProject } />
         <Route path="/project/games" component={ GameProject } />
         <Route path="/project/gallery" component={ Gallery } />
-        <Route path="/project/sound-design" component={ SoundProject } />
+        {/* <Route path="/project/sound-design" component={ SoundProject } /> */}
         <Route exact path="/" component={ Main } />
+        <Route path="*" component={ NotFound } />
       </Switch>
 
     );

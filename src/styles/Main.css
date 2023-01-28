@@ -21,7 +21,8 @@ p {
 
 .main-right {
   display: flex;
-  justify-content: space-between;
+  margin-top: 140px;
+  justify-content: center;
   width: 50%;
 }
 
