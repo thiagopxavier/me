@@ -78,11 +78,32 @@ const webProjects = [
 ];
 
 const gameProjects = [
-
+  {
+    id: 10,
+    name: 'Turle Revenge',
+    repository: 'https://github.com/thiagopxavier/gerador-de-senhas',
+    description: 'Aplicação Geradora de Senha',
+    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069116794519949332/image.png?width=810&height=455',
+    enable: true,
+  },
+  {
+    id: 11,
+    name: 'You',
+    repository: 'https://github.com/thiagopxavier/you',
+    description: 'Aplicaçãawdha',
+    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069133552043692102/image.png?width=810&height=456',
+    enable: true,
+  },
 ];
 
 const gallery = [
-
+  {
+    id: 20,
+    name: 'Cursed',
+    description: '',
+    image: 'https://media.discordapp.net/attachments/841726080787677204/1069134103091351592/image.png?width=810&height=495',
+    enable: true,
+  },
 ];
 
 const soundDesing = [

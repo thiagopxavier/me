@@ -11,11 +11,11 @@ class ButtonNav extends Component {
     const { list: { name } } = this.props;
     return (
       <button
-        className={ `button-nav ${name === 'Sonoplastia'
+        className={ `button-nav ${name === 'Sonoplastia' || name === 'Galeria'
           ? 'button-disabled' : 'button-enable'}` }
         type="button"
         onClick={ this.handleClick }
-        disabled={ name === 'Sonoplastia' }
+        disabled={ name === 'Sonoplastia' || name === 'Galeria' }
       >
         { name }
       </button>

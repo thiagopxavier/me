@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import AboutButton from '../../components/AboutButton';
 import ButtonNav from '../../components/ButtoNav';
+import ProjectCard from '../../components/ProjectCard';
 import TitleName from '../../components/TitleName';
 import { projectList, gallery } from '../../data';
 import '../../styles/Project.css';
@@ -12,7 +13,8 @@ class Gallery extends Component {
   };
 
   componentDidMount() {
-    if (gallery.length !== 0) {
+    const maxProjects = 7;
+    if (gallery.length >= maxProjects) {
       this.setState({
         hasProject: true,
       });
@@ -39,6 +41,15 @@ class Gallery extends Component {
         </div>
         <div className="project-right">
           <h1 className="h1-project">Galeria</h1>
+          <div className="div-card">
+            { gallery.map((project) => (
+              <ProjectCard
+                key={ project.id }
+                project={ project }
+                history={ history }
+              />
+            ))}
+          </div>
         </div>
       </main>
     );

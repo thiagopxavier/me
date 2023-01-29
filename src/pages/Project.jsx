@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import ButtonNav from '../components/ButtoNav';
 import TitleName from '../components/TitleName';
 import '../styles/Project.css';
-import { projectList, webProjects } from '../data';
+import { projectList, gameProjects, webProjects, gallery } from '../data';
 import AboutButton from '../components/AboutButton';
 
 const teste = false;
@@ -26,9 +26,22 @@ class Project extends Component {
     }
   }
 
+  verifyProject = () => {
+    const { match: { params: { id } } } = this.props;
+    const startGallery = 20;
+    const startGames = 10;
+    if (Number(id) >= startGallery) {
+      return gallery;
+    }
+    if (Number(id) >= startGames) {
+      return gameProjects;
+    }
+    return webProjects;
+  };
+
   verifyPage = () => {
     const { history, match: { params: { id } } } = this.props;
-    const project = webProjects.some((projectObj) => (
+    const project = this.verifyProject().some((projectObj) => (
       projectObj.id === Number(id)
     ));
     if (!project) {
@@ -39,7 +52,7 @@ class Project extends Component {
 
   getProjectName = () => {
     const { match: { params: { id } } } = this.props;
-    const project = webProjects.find((projectObj) => (
+    const project = this.verifyProject().find((projectObj) => (
       projectObj.id === Number(id)
     ));
     return project;
@@ -48,7 +61,6 @@ class Project extends Component {
   render() {
     const { history } = this.props;
     const { hasProject } = this.state;
-    console.log(this.getProjectName());
     const projectState = this.verifyPage() && this.getProjectName();
     return (
       <main className={ `project-page ${hasProject ? 'hasProject' : 'notHasProject'}` }>
