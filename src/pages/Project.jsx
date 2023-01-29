@@ -75,11 +75,29 @@ class Project extends Component {
         </div>
         <div className="project-right">
           <h1 className="h1-project">{ projectState.name }</h1>
-          <img
-            className="image-card"
-            src={ projectState.image }
-            alt="Captura de tela do projeto"
-          />
+          <div className="div-details">
+            <img
+              className="image-card-details"
+              src={ projectState.image }
+              alt="Captura de tela do projeto"
+            />
+            <p className="description">
+              { projectState.description }
+            </p>
+          </div>
+          <div className="div-icons-details">
+            { projectState.repository
+          && (
+            <a href={ projectState.repository } target="_blank" rel="noreferrer">
+              <img className="github-icone" src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Icone" />
+            </a>)}
+            { projectState.download
+          && (
+            <a href={ projectState.download } target="_blank" rel="noreferrer">
+              <img className="download-icone" src="https://img.icons8.com/ios-glyphs/90/null/downloads.png" alt="Download Icone" />
+            </a>)}
+
+          </div>
         </div>
       </main>
     );

@@ -47,9 +47,11 @@ const webProjects = [
     id: 1,
     name: 'Verificador de CEP',
     repository: 'https://github.com/thiagopxavier/consulta-de-cep',
-    description: 'Aplicação para requisião de CEP',
-    image: 'https://media.discordapp.net/attachments/1040280729801728001/1068758462592450620/Captura_de_tela_de_2023-01-28_02-00-59.png?width=811&height=456',
+    description: `Aplicação para verificar o CEP de uma localidade,
+    utilizando HTML, CSS e JavaScript, fazendo a requisição para a API da viacep.`,
+    image: 'https://media.discordapp.net/attachments/841726080787677204/1069137438523535441/image.png?width=810&height=456',
     enable: true,
+    github: true,
   },
   {
     id: 2,
@@ -58,22 +60,27 @@ const webProjects = [
     description: '',
     image: defaultImage,
     enable: false,
+    github: false,
   },
   {
     id: 3,
     name: 'Cartão de Crédito',
-    repository: 'not yet',
-    description: 'Aplicação Todo list',
+    repository: 'https://github.com/thiagopxavier/cartao-de-credito',
+    description: `Aplicação simulando um verificador de cartão de cŕedito,
+     utilizando JavaScript e Regex para as verificações.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069090050593276064/Captura_de_tela_de_2023-01-29_00-01-33.png?width=810&height=457',
     enable: true,
+    github: true,
   },
   {
     id: 4,
     name: 'Gerador de Senhas',
     repository: 'https://github.com/thiagopxavier/gerador-de-senhas',
-    description: 'Aplicação Geradora de Senha',
+    description: `Aplicação que gera senhas aleatórias, utilizando
+    JavaScript com requisição da aplicação  nanoid.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069091953305731142/image.png?width=810&height=453',
     enable: true,
+    github: true,
   },
 ];
 
@@ -81,8 +88,12 @@ const gameProjects = [
   {
     id: 10,
     name: 'Turle Revenge',
-    repository: 'https://github.com/thiagopxavier/gerador-de-senhas',
-    description: 'Aplicação Geradora de Senha',
+    repository: '',
+    download: 'https://gamejolt.com/games/turtlerevenge/457276',
+    description: `Jogo feito em 1 semana para uma gamejam com o tema 'Seus
+    inimigos são suas armas', foi feito utilizando a Game Engine Godot, com
+    a linguagem GDScript. O jogo conta a história da Taruga, e sua luta
+    contra a poluição.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069116794519949332/image.png?width=810&height=455',
     enable: true,
   },
@@ -90,7 +101,9 @@ const gameProjects = [
     id: 11,
     name: 'You',
     repository: 'https://github.com/thiagopxavier/you',
-    description: 'Aplicaçãawdha',
+    download: '',
+    description: `O jogo conta a história de 'you', o personagem acorda em
+    seu quarto, buscando a razão da existência.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069133552043692102/image.png?width=810&height=456',
     enable: true,
   },
@@ -100,7 +113,7 @@ const gallery = [
   {
     id: 20,
     name: 'Cursed',
-    description: '',
+    description: 'Cursed',
     image: 'https://media.discordapp.net/attachments/841726080787677204/1069134103091351592/image.png?width=810&height=495',
     enable: true,
   },

@@ -14,12 +14,49 @@
 }
 
 .h1-project {
+  letter-spacing: .1rem;
   align-self: center;
   font-size: 40px;
 }
 
 .notHasProject {
   height: 100vh;
+}
+
+.image-card-details {
+  margin-left: 40px;
+  border-radius: 20px;
+  width: 60%;
+}
+
+.div-details {
+  display: flex;
+}
+
+.description {
+  /* text-indent: 30px; */
+  line-height: 22px;
+  margin: auto;
+  margin-top: 0;
+  width: 30%;
+  
+}
+
+.div-icons-details {
+  display: flex;
+  margin-left: 50px;
+  align-items: center;
+}
+
+.github-icone {
+  width: 100px;
+  margin-top: 5px;
+  border-radius: 10px;
+}
+
+.download-icone {
+  width: 35px;
+  margin-top: 5px;
 }
 
 .project-left {
