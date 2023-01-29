@@ -13,7 +13,8 @@ class WebPorject extends Component {
   };
 
   componentDidMount() {
-    if (webProjects.length !== 0) {
+    const maxProjects = 7;
+    if (webProjects.length >= maxProjects) {
       this.setState({
         hasProject: true,
       });

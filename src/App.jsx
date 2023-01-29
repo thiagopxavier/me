@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Main from './pages/Main';
 import About from './pages/About';
@@ -20,8 +20,11 @@ class App extends Component {
         <Route path="/project/gallery" component={ Gallery } />
         <Route path="/project/:id" component={ Project } />
         {/* <Route path="/project/sound-design" component={ SoundProject } /> */}
+        <Route path="/not-found" component={ NotFound } />
         <Route exact path="/" component={ Main } />
-        <Route path="*" component={ NotFound } />
+        <Route path="*">
+          <Redirect to="/not-found" />
+        </Route>
       </Switch>
 
     );
