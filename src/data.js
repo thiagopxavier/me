@@ -51,16 +51,14 @@ const webProjects = [
     utilizando HTML, CSS e JavaScript, fazendo a requisição para a API da viacep.`,
     image: 'https://media.discordapp.net/attachments/841726080787677204/1069137438523535441/image.png?width=810&height=456',
     enable: true,
-    github: true,
   },
   {
     id: 2,
-    name: '',
+    name: 'Todo List',
     repository: '',
     description: '',
     image: defaultImage,
     enable: false,
-    github: false,
   },
   {
     id: 3,
@@ -70,7 +68,6 @@ const webProjects = [
      utilizando JavaScript e Regex para as verificações.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069090050593276064/Captura_de_tela_de_2023-01-29_00-01-33.png?width=810&height=457',
     enable: true,
-    github: true,
   },
   {
     id: 4,
@@ -80,7 +77,6 @@ const webProjects = [
     JavaScript com requisição da aplicação  nanoid.`,
     image: 'https://media.discordapp.net/attachments/1040280729801728001/1069091953305731142/image.png?width=810&height=453',
     enable: true,
-    github: true,
   },
 ];
 
@@ -99,6 +95,17 @@ const gameProjects = [
   },
   {
     id: 11,
+    name: 'Caminhoneiros do Vale do Silício',
+    repository: '',
+    download: '',
+    description: `Projeto em grupo da Faculdade, desenvolvido no Godot
+    Engine, com a linguagem GDScript, meu papel no grupo era toda a questão
+    da programação do jogo, fiz participação na idealização e algumas decisões de arte`,
+    image: defaultImage,
+    enable: true,
+  },
+  {
+    id: 12,
     name: 'You',
     repository: 'https://github.com/thiagopxavier/you',
     download: '',
