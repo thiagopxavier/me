@@ -42,7 +42,11 @@ class WebPorject extends Component {
           <h1 className="h1-project">Aplicações Web</h1>
           <div className="div-card">
             { webProjects.map((project) => (
-              <ProjectCard key={ project.id } project={ project } />
+              <ProjectCard
+                key={ project.id }
+                project={ project }
+                history={ history }
+              />
             ))}
           </div>
         </div>

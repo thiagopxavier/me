@@ -1,15 +1,18 @@
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import github from '../images/icon-github.svg';
 import '../styles/ProjectCard.css';
 
 class ProjectCard extends Component {
   render() {
-    const { project: { name, repository, image } } = this.props;
+    const { project: { id, name, repository, image } } = this.props;
     return (
       <div className="card">
         <h1 className="h1-card">{name}</h1>
-        <img className="image-card" src={ image } alt="Captura de tela do projeto" />
+        <Link className="link-card" to={ `/project/${id}` }>
+          <img className="image-card" src={ image } alt="Captura de tela do projeto" />
+        </Link>
         <a
           href={ repository }
           target="_blank"

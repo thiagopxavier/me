@@ -66,8 +66,15 @@ const webProjects = [
   },
   {
     id: 4,
-    name: 'Lorem  Dolor',
+    name: 'Lorem  Dolorr',
     repository: 'google.com',
+    description: 'Lorem  Dolor',
+    image: defaultImage,
+  },
+  {
+    id: 5,
+    name: 'Lorem',
+    repository: 'google',
     description: 'Lorem  Dolor',
     image: defaultImage,
   },

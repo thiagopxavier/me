@@ -11,8 +11,12 @@
   align-items: center;
   flex-direction: column;
   width: 33%;
-  height: 300px;
+  border: 1px solid red;
 }
 .image-card {
-  max-height: 63%;
+  max-height: 100%;
+}
+
+.link-card{
+  height: 180px;
 }

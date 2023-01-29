@@ -7,6 +7,7 @@ import NotFound from './pages/NotFound';
 import WebProject from './pages/projects/WebProject';
 import GameProject from './pages/projects/GameProject';
 import Gallery from './pages/projects/Gallery';
+import Project from './pages/Project';
 // import SoundProject from './pages/projects/SoundProject';
 
 class App extends Component {
@@ -14,7 +15,8 @@ class App extends Component {
     return (
       <Switch>
         <Route path="/about" component={ About } />
-        <Route path="/project/web" component={ WebProject } />
+        <Route path="/project/web/" component={ WebProject } />
+        <Route path="/project/:id" component={ Project } />
         <Route path="/project/games" component={ GameProject } />
         <Route path="/project/gallery" component={ Gallery } />
         {/* <Route path="/project/sound-design" component={ SoundProject } /> */}
