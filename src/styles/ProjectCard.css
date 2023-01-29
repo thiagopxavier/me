@@ -5,6 +5,11 @@
   width: 95%;
 }
 
+.h1-card {
+  font-family: 'Khand', sans-serif;
+  margin: 5px;
+}
+
 .card {
   display: flex;
   align-items: center;

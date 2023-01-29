@@ -9,7 +9,8 @@
   box-shadow: 6px 1px 1px black;
   margin: 10px;
   border: none;
-  padding-bottom: 45px;
+  padding-bottom: 50px;
+  font-family: 'Khand', sans-serif;
   width: 250px;
   height: 40px;
 }
