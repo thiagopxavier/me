@@ -25,7 +25,7 @@ class Main extends Component {
               Olá, eu sou o Thiago
             </p>
             <p>
-              Sou formado em Tecnologia em Jogos Digitais,
+              Sou formado na area de Tecnologia em Jogos Digitais,
               opero na área de modelagem 3D, e desenvolvimento com C#
             </p>
             <br />

@@ -61,8 +61,7 @@ class About extends Component {
               className="about-p"
             >
               Nos meus momentos livres gosto de jogar, ler e escrever
-              minhas próprias histórias. E com esse gosto, acabei me
-              formando em
+              minhas próprias histórias. E com esse gosto, acabei cursando
               {' '}
               <spam className="spam-strong">Tecnologia em Jogos Digitais</spam>
               , onde

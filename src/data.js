@@ -97,11 +97,11 @@ const gameProjects = [
     id: 11,
     name: 'Caminhoneiros do Vale do Silício',
     repository: '',
-    download: '',
+    download: 'https://drive.google.com/file/d/1fcDHDFkWXCRywZm6rCf-4KNHEOoa2kc2/view?usp=share_link',
     description: `Projeto em grupo da Faculdade, desenvolvido no Godot
     Engine, com a linguagem GDScript, meu papel no grupo era toda a questão
     da programação do jogo, fiz participação na idealização e algumas decisões de arte`,
-    image: defaultImage,
+    image: 'https://media.discordapp.net/attachments/841726080787677204/1069363691088265246/image.png?width=834&height=451',
     enable: true,
   },
   {
