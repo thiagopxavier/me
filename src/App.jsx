@@ -16,9 +16,9 @@ class App extends Component {
       <Switch>
         <Route path="/about" component={ About } />
         <Route path="/project/web/" component={ WebProject } />
-        <Route path="/project/:id" component={ Project } />
         <Route path="/project/games" component={ GameProject } />
         <Route path="/project/gallery" component={ Gallery } />
+        <Route path="/project/:id" component={ Project } />
         {/* <Route path="/project/sound-design" component={ SoundProject } /> */}
         <Route exact path="/" component={ Main } />
         <Route path="*" component={ NotFound } />

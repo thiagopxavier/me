@@ -14,6 +14,7 @@ class Project extends Component {
   };
 
   componentDidMount() {
+    this.verifyPage();
     if (teste) {
       this.setState({
         hasProject: true,
@@ -25,6 +26,17 @@ class Project extends Component {
     }
   }
 
+  verifyPage = () => {
+    const { history, match: { params: { id } } } = this.props;
+    const project = webProjects.some((projectObj) => (
+      projectObj.id === Number(id)
+    ));
+    if (!project) {
+      history.push('/not-found');
+    }
+    return project;
+  };
+
   getProjectName = () => {
     const { match: { params: { id } } } = this.props;
     const project = webProjects.find((projectObj) => (
@@ -34,8 +46,10 @@ class Project extends Component {
   };
 
   render() {
-    const { history, match: { params: { id } } } = this.props;
+    const { history } = this.props;
     const { hasProject } = this.state;
+    console.log(this.getProjectName());
+    const projectState = this.verifyPage() && this.getProjectName();
     return (
       <main className={ `project-page ${hasProject ? 'hasProject' : 'notHasProject'}` }>
         <div className="project-left">
@@ -48,9 +62,13 @@ class Project extends Component {
           <AboutButton />
         </div>
         <div className="project-right">
-          <h1 className="h1-project">{`Projetos ${id}`}</h1>
+          <h1 className="h1-project">{ projectState.name }</h1>
+          <img
+            className="image-card"
+            src={ projectState.image }
+            alt="Captura de tela do projeto"
+          />
         </div>
-        <h4>{ this.getProjectName().name }</h4>
       </main>
     );
   }
