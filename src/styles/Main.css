@@ -1,50 +1,49 @@
-p {
-  margin: 0;
-}
-
-
 .main-page {
-  background: linear-gradient(180deg, #C5BC45 13%, #ffffff 13%);
-  display: flex;
+  background: linear-gradient(180deg, #C5BC45 12vh, #ffffff 12vh);
   margin: 0;
   padding: 0;
   height: 100vh;
 }
 
-.main-left {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 50%;
-}
-
-.main-right {
-  display: flex;
-  margin-top: 20vh;
-  justify-content: center;
-}
 
 .main-my-name {
   font-size: 15vw;
   font-family: 'Caveat', cursive;
   color: white;
-  text-align: center;
   background-color: #00000000;
   width: 100vw;
   border: none;
 }
 
+
 .main-buttons-nav {
-  margin-top: 20vh;
+  display: flex;
+  margin-top: 3vh;
+
 }
 
 .button-nav {
+  background-color: #00000000;
+  border: none;
+  margin: auto;
+  font-family: 'Khand', sans-serif;
   font-size: 30px;
-  width: 40vw;
-  height: 5vh;
+}
+
+
+.main-right {
+  display: flex;
+  margin-top: 5vh;
+}
+
+.main-p {
+  padding-left: 3vh;
+  padding-right: 3vh;
 }
 
 .main-p-about {
+  font-size: 25px;
+  text-align: center;
   font-style: italic;
   margin-bottom: 20px;
 }

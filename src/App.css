@@ -2,17 +2,9 @@
   font-weight: 600;
 }
 
-.button-nav {
-  transition: 0.1s;
-  background-color: #00000000;
-  font-size: 40px;
-  box-shadow: 6px 1px 1px black;
-  margin: 10px;
-  border: none;
-  padding-bottom: 50px;
-  font-family: 'Khand', sans-serif;
-  width: 250px;
-  height: 40px;
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .button-enable:hover {
