@@ -1,71 +1,84 @@
+
+
 .about-page {
-  background: linear-gradient(90deg, #C5BC45 21%, #ffffff 0%);
-  background-attachment: fixed;
-  padding: 0;
-  margin: 0;
-  height: 100%;
-  background-repeat: no-repeat;
+  background: linear-gradient(180deg, #C5BC45 13%, #ffffff 13%);
   display: flex;
   margin: 0;
-}
-
-.about-left {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  width: 21%;
-}
-
-.about-right {
-  display: flex;
-  justify-content: space-between;
-  width: 79%;
-}
-
-.about-txt {
-  width: 40%;
-  padding: 20px;
-}
-
-.about-h1 {
-  padding-bottom: 20px;
-  font-style: italic;
-}
-
-.about-p {
-  padding-bottom: 40px;
-  line-height: 22px;
-}
-
-.about-my-picture {
-  width: 400px;
-  height: 400px;
-  margin-top: 90px;
-  margin-right: 100px;
-  margin-bottom: 5px;
-  border-radius: 30px;
-}
-
-ul {
   padding: 0;
+  height: 100vh;
 }
 
-li {
-  padding-bottom: 5px;
-  margin-left: 20px;
-  width: 110%;
-}
 
-.about-contact {
-  display: flex;
-  justify-content: flex-end;
-  margin-right: 110px;
-}
+@media screen and (min-width: 1024px) {
+  .about-page {
+    background: linear-gradient(90deg, #C5BC45 21%, #ffffff 0%);
+    background-attachment: fixed;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+  }
 
-.link-contact {
-  padding-right: 5px;
-}
+  .about-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 21%;
+  }
 
-.about-icons {
-  width: 22px;
+  .about-right {
+    display: flex;
+    justify-content: space-between;
+    width: 79%;
+  }
+
+  .about-txt {
+    width: 40%;
+    padding: 20px;
+  }
+
+  .about-h1 {
+    padding-bottom: 20px;
+    font-style: italic;
+  }
+
+  .about-p {
+    padding-bottom: 40px;
+    line-height: 22px;
+  }
+
+  .about-my-picture {
+    width: 400px;
+    height: 400px;
+    margin-top: 90px;
+    margin-right: 100px;
+    margin-bottom: 5px;
+    border-radius: 30px;
+  }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    padding-bottom: 5px;
+    margin-left: 20px;
+    width: 110%;
+  }
+
+  .about-contact {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 110px;
+  }
+
+  .link-contact {
+    padding-right: 5px;
+  }
+
+  .about-icons {
+    width: 22px;
+  }
+
 }

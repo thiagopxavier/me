@@ -1,15 +1,14 @@
 p {
-   margin: 0;
+  margin: 0;
 }
 
+
 .main-page {
+  background: linear-gradient(180deg, #C5BC45 13%, #ffffff 13%);
   display: flex;
-  background: linear-gradient(90deg, #C5BC45 50%, #ffffff 50%);
-  /* background-attachment: fixed; */
+  margin: 0;
   padding: 0;
   height: 100vh;
-  background-repeat: no-repeat;
-  margin: 0;
 }
 
 .main-left {
@@ -21,45 +20,94 @@ p {
 
 .main-right {
   display: flex;
-  margin-top: 140px;
+  margin-top: 20vh;
   justify-content: center;
-  width: 50%;
 }
 
 .main-my-name {
-  font-size: 80px;
+  font-size: 15vw;
   font-family: 'Caveat', cursive;
-  margin: 0;
-  margin-top: 30px;
   color: white;
   text-align: center;
-  margin-bottom: 130px;
   background-color: #00000000;
-  width: 400px;
-  align-self: center;
+  width: 100vw;
   border: none;
 }
 
-.main-my-name:hover {
-  transition: 0.1s;
-  scale: 1.02;
+.main-buttons-nav {
+  margin-top: 20vh;
 }
 
-.main-div-about {
-  margin-left: 10px;
-  margin-top: 90px;
-  width: 80%;
-  text-align: center;
-}
-
-.main-p-about{
+.button-nav {
   font-size: 30px;
+  width: 40vw;
+  height: 5vh;
+}
+
+.main-p-about {
   font-style: italic;
   margin-bottom: 20px;
 }
 
-.main-buttons-nav {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+@media screen and (min-width: 1024px) {
+  .main-page {
+    display: flex;
+    background: linear-gradient(90deg, #C5BC45 50%, #ffffff 50%);
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+
+  .main-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .main-right {
+    display: flex;
+    margin-top: 140px;
+    justify-content: center;
+    width: 50%;
+  }
+
+  .main-my-name {
+    font-size: 80px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    margin-bottom: 130px;
+    background-color: #00000000;
+    width: 400px;
+    align-self: center;
+    border: none;
+  }
+
+  .main-my-name:hover {
+    transition: 0.1s;
+    scale: 1.02;
+  }
+
+  .main-div-about {
+    margin-left: 10px;
+    margin-top: 90px;
+    width: 80%;
+    text-align: center;
+  }
+
+  .main-p-about {
+    font-size: 30px;
+    font-style: italic;
+    margin-bottom: 20px;
+  }
+
+  .main-buttons-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
 }
