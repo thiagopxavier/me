@@ -18,6 +18,7 @@ class ButtonNav extends Component {
         disabled={ name === 'Sonoplastia' || name === 'Galeria' }
       >
         { name }
+        <hr className="hr-button" />
       </button>
     );
   }

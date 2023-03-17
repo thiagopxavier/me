@@ -19,7 +19,11 @@
 .main-buttons-nav {
   display: flex;
   margin-top: 3vh;
+}
 
+.hr-button {
+  width: 50%;
+  margin: auto;
 }
 
 .button-nav {
