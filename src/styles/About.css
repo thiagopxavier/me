@@ -1,13 +1,48 @@
-
-
 .about-page {
-  background: linear-gradient(180deg, #C5BC45 13%, #ffffff 13%);
-  display: flex;
+  background: linear-gradient(180deg, #C5BC45 12vh, #ffffff 12vh);
   margin: 0;
   padding: 0;
   height: 100vh;
 }
 
+.about-p {
+  padding-bottom: 30px;
+}
+
+.about-h1 {
+  font-style: italic;
+  margin-left: 3vh;
+}
+
+.about-my-picture {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 20px;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding-bottom: 5px;
+  margin-left: 3vh;
+  list-style: none;
+  margin-right: 3vh;
+}
+
+.about-contact {
+  display: flex;
+  justify-content: center;
+}
+
+.link-contact {
+  padding-right: 5px;
+}
+
+.about-icons {
+  width: 22px;
+}
 
 @media screen and (min-width: 1024px) {
   .about-page {

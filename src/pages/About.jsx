@@ -20,6 +20,14 @@ class About extends Component {
           </nav>
         </div>
         <div className="about-right">
+          <div>
+            <img
+              className="about-my-picture"
+              src="https://media.discordapp.net/attachments/1040280729801728001/1068022512899850260/eu.jpg"
+              alt="Minha Foto"
+            />
+            <Contact />
+          </div>
           <div className="about-txt">
             <h1 className="about-h1">Quem sou eu</h1>
             <p
@@ -91,7 +99,7 @@ class About extends Component {
               <li>Desenvolvimento Web - Trybe - *2023</li>
             </ul>
             <hr />
-            <h1>Habilidades</h1>
+            <h1 className="about-h1">Habilidades</h1>
             <ul>
               <li>HTML5</li>
               <li>CSS3</li>
@@ -105,14 +113,7 @@ class About extends Component {
               <li>Sonoplastia: Audacity | FL Studio</li>
             </ul>
           </div>
-          <div>
-            <img
-              className="about-my-picture"
-              src="https://media.discordapp.net/attachments/1040280729801728001/1068022512899850260/eu.jpg"
-              alt="Minha Foto"
-            />
-            <Contact />
-          </div>
+
         </div>
       </main>
     );

@@ -5,9 +5,7 @@
 p {
   margin: 0;
   padding: 0;
-}
-
-.button-enable:hover {
-  transition: 0.1s;
-  scale: 1.02;
+  padding-left: 3vh;
+  padding-right: 3vh;
+  line-height: 22px;
 }

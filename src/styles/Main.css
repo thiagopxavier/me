@@ -30,15 +30,14 @@
   font-size: 30px;
 }
 
+.button-enable:hover {
+  transition: 0.1s;
+  scale: 1.02;
+}
 
 .main-right {
   display: flex;
   margin-top: 5vh;
-}
-
-.main-p {
-  padding-left: 3vh;
-  padding-right: 3vh;
 }
 
 .main-p-about {
