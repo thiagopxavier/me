@@ -1,32 +1,58 @@
-.div-card {
-  display: flex;
-  flex-wrap: wrap;
-  align-self: center;
-  width: 95%;
-}
 
 .h1-card {
   font-family: 'Khand', sans-serif;
   margin: 5px;
-  font-size: 26px;;
+  font-size: 26px;
+}
+
+.image-card {
+  max-width: 100%;
+  border-radius: 0 0 30px 30px ;
 }
 
 .card {
   display: flex;
   align-items: center;
   flex-direction: column;
-  width: 32.9%;
-  max-height: 265px;
-  margin: 2px;
+  margin: 1vw;
   background-color: #E9E9E9;
-  border-radius: 10%;
-}
-.image-card {
-  max-height: 95%;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 
-.link-card{
-  height: 180px;
-  margin-bottom: 10px;
+@media screen and (min-width: 1024px) {
+
+  .div-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    width: 95%;
+  }
+
+  .h1-card {
+    font-family: 'Khand', sans-serif;
+    margin: 5px;
+    font-size: 26px;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 32.9%;
+    max-height: 265px;
+    margin: 2px;
+    background-color: #E9E9E9;
+    border-radius: 10%;
+  }
+
+  .image-card {
+    max-height: 95%;
+    border-radius: 20px;
+  }
+
+  .link-card {
+    height: 180px;
+    margin-bottom: 10px;
+  }
+
 }
