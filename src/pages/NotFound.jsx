@@ -10,8 +10,8 @@ class NotFound extends Component {
     const { history } = this.props;
     return (
       <main className="main-page">
+        <TitleName history={ history } />
         <div className="main-left">
-          <TitleName history={ history } />
           <nav className="main-buttons-nav">
             {mainList.map((element, index) => (
               <ButtonNav key={ index } list={ element } history={ history } />
@@ -25,7 +25,7 @@ class NotFound extends Component {
               Página não encontrada
             </p>
             <p>
-              Talvez você queira visitar uma das páginas ao lado
+              A onde estava tentando ir? Volte pro caminho!
             </p>
           </div>
         </div>

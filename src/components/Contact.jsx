@@ -27,7 +27,7 @@ class Contact extends Component {
 
         </a>
         <a
-          href="https://twitter.com/voidnaifa"
+          href="https://twitter.com/thiagopxavier"
           target="_blank"
           rel="noreferrer"
           className="link-contact"
@@ -36,7 +36,7 @@ class Contact extends Component {
 
         </a>
         <a
-          href="https://www.instagram.com/voidnaifa/"
+          href="https://www.instagram.com/mushroommxxn/"
           target="_blank"
           rel="noreferrer"
           className="link-contact"
