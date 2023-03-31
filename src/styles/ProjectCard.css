@@ -11,12 +11,12 @@
 }
 
 .card {
-  display: flex;
   align-items: center;
+  display: flex;
   flex-direction: column;
-  margin: 1vw;
+  margin: 1vh;
   background-color: #E9E9E9;
-  border-radius: 30px;
+  border-radius: 30px 30px 100% 100% ;
 }
 
 @media screen and (min-width: 1024px) {
@@ -28,31 +28,10 @@
     width: 95%;
   }
 
-  .h1-card {
-    font-family: 'Khand', sans-serif;
-    margin: 5px;
-    font-size: 26px;
-  }
-
   .card {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 32.9%;
-    max-height: 265px;
+    max-width: 32%;
+    max-height: 90%;
     margin: 2px;
     background-color: #E9E9E9;
-    border-radius: 10%;
   }
-
-  .image-card {
-    max-height: 95%;
-    border-radius: 20px;
-  }
-
-  .link-card {
-    height: 180px;
-    margin-bottom: 10px;
-  }
-
 }

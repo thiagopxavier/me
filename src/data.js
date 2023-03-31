@@ -1,6 +1,6 @@
 const projectRoute = '/project/web';
 
-const defaultImage = 'https://media.discordapp.net/attachments/1040280729801728001/1068687507606229032/No_Image_Available.png?width=452&height=452';
+// const defaultImage = 'https://media.discordapp.net/attachments/1040280729801728001/1068687507606229032/No_Image_Available.png?width=452&height=452';
 
 const mainList = [
 
@@ -52,23 +52,23 @@ const webProjects = [
     image: 'https://media.discordapp.net/attachments/841726080787677204/1069137438523535441/image.png?width=810&height=456',
     enable: true,
   },
-  {
-    id: 2,
-    name: 'Todo List',
-    repository: '',
-    description: '',
-    image: defaultImage,
-    enable: false,
-  },
-  {
-    id: 3,
-    name: 'Cartão de Crédito',
-    repository: 'https://github.com/thiagopxavier/cartao-de-credito',
-    description: `Aplicação simulando um verificador de cartão de cŕedito,
-     utilizando JavaScript e Regex para as verificações.`,
-    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069090050593276064/Captura_de_tela_de_2023-01-29_00-01-33.png?width=810&height=457',
-    enable: true,
-  },
+  // {
+  //   id: 2,
+  //   name: 'Todo List',
+  //   repository: '',
+  //   description: '',
+  //   image: defaultImage,
+  //   enable: false,
+  // },
+  // {
+  //   id: 3,
+  //   name: 'Cartão de Crédito',
+  //   repository: 'https://github.com/thiagopxavier/cartao-de-credito',
+  //   description: `Aplicação simulando um verificador de cartão de cŕedito,
+  //    utilizando JavaScript e Regex para as verificações.`,
+  //   image: 'https://media.discordapp.net/attachments/1040280729801728001/1069090050593276064/Captura_de_tela_de_2023-01-29_00-01-33.png?width=810&height=457',
+  //   enable: true,
+  // },
   {
     id: 4,
     name: 'Gerador de Senhas',
