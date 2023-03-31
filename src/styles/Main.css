@@ -34,11 +34,6 @@
   font-size: 30px;
 }
 
-.button-enable:hover {
-  transition: 0.1s;
-  scale: 1.02;
-}
-
 .main-right {
   display: flex;
   margin-top: 5vh;
@@ -55,15 +50,11 @@
   .main-page {
     display: flex;
     background: linear-gradient(90deg, #C5BC45 50%, #ffffff 50%);
-    padding: 0;
     height: 100vh;
-    background-repeat: no-repeat;
-    margin: 0;
   }
 
   .main-left {
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     width: 50%;
   }
@@ -78,14 +69,13 @@
   .main-my-name {
     font-size: 80px;
     font-family: 'Caveat', cursive;
-    margin: 0;
     margin-top: 30px;
     color: white;
-    text-align: center;
     margin-bottom: 130px;
     background-color: #00000000;
     width: 400px;
     align-self: center;
+    text-align: center;
     border: none;
   }
 
@@ -95,7 +85,6 @@
   }
 
   .main-div-about {
-    margin-left: 10px;
     margin-top: 90px;
     width: 80%;
     text-align: center;
@@ -107,6 +96,23 @@
     margin-bottom: 20px;
   }
 
+  .button-nav {
+    transition: 0.1s;
+    background-color: #00000000;
+    font-size: 40px;
+    box-shadow: 6px 1px 1px black;
+    margin: 10px;
+    border: none;
+    padding-bottom: 50px;
+    font-family: 'Khand', sans-serif;
+    width: 250px;
+    height: 40px;
+  }
+
+  .hr-button {
+    display: none;
+  }
+  
   .main-buttons-nav {
     display: flex;
     flex-direction: column;

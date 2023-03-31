@@ -9,3 +9,8 @@ p {
   padding-right: 3vh;
   line-height: 22px;
 }
+
+.button-enable:hover {
+  transition: 0.1s;
+  scale: 1.02;
+}

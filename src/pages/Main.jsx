@@ -10,8 +10,8 @@ class Main extends Component {
     const { history } = this.props;
     return (
       <main className="main-page">
-        <TitleName history={ history } />
         <div className="main-left">
+          <TitleName history={ history } />
           <nav className="main-buttons-nav">
             {mainList.map((element, index) => (
               <ButtonNav key={ index } list={ element } history={ history } />
@@ -31,6 +31,7 @@ class Main extends Component {
             <br />
             <p className="main-p">
               Atualmente estudo desenvolvimento web na
+              {' '}
               <spam className="spam-strong">Trybe</spam>
             </p>
 
