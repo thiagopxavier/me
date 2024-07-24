@@ -23,7 +23,7 @@ class About extends Component {
           <div>
             <img
               className="about-my-picture"
-              src="https://media.discordapp.net/attachments/1040280729801728001/1068022512899850260/eu.jpg"
+              src="https://i.imgur.com/prbpFVC.jpg"
               alt="Minha Foto"
             />
             <Contact />

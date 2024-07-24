@@ -1,3 +1,5 @@
+import passwordImage from './images/project/password-generator.png';
+
 const projectRoute = '/project/web';
 
 // const defaultImage = 'https://media.discordapp.net/attachments/1040280729801728001/1068687507606229032/No_Image_Available.png?width=452&height=452';
@@ -75,7 +77,7 @@ const webProjects = [
     repository: 'https://github.com/thiagopxavier/gerador-de-senhas',
     description: `Aplicação que gera senhas aleatórias, utilizando
     JavaScript com requisição da aplicação  nanoid.`,
-    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069091953305731142/image.png?width=810&height=453',
+    image: passwordImage,
     enable: true,
   },
 ];

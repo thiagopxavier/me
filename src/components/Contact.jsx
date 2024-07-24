@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import linkedin from '../images/icon-linkedin.svg';
-import github from '../images/icon-github.svg';
-import twitter from '../images/icon-twitter.svg';
-import instagram from '../images/icon-instagram.svg';
-import whatsapp from '../images/icon-whatsapp.svg';
+import linkedin from '../images/icon/icon-linkedin.svg';
+import github from '../images/icon/icon-github.svg';
+import twitter from '../images/icon/icon-twitter.svg';
+import instagram from '../images/icon/icon-instagram.svg';
+import whatsapp from '../images/icon/icon-whatsapp.svg';
 
 class Contact extends Component {
   render() {
