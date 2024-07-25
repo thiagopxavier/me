@@ -16,7 +16,6 @@ class ProjectCard extends Component {
             alt="Captura de tela do projeto"
           />
         </Link>
-        {/* <h1 className="h1-card">{description}</h1> */}
       </div>
     );
   }

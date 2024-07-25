@@ -1,8 +1,13 @@
+import calculatorImage from './images/project/calculator.png';
+import clockImage from './images/project/clock.png';
 import passwordImage from './images/project/password-generator.png';
+import zipCodeImage from './images/project/zip-code.png';
+
+import turtleRevengeImage from './images/project/turtle-revenge.png';
+import cvsImage from './images/project/cvs.png';
+import youImage from './images/project/you.png';
 
 const projectRoute = '/project/web';
-
-// const defaultImage = 'https://media.discordapp.net/attachments/1040280729801728001/1068687507606229032/No_Image_Available.png?width=452&height=452';
 
 const mainList = [
 
@@ -49,9 +54,10 @@ const webProjects = [
     id: 1,
     name: 'Verificador de CEP',
     repository: 'https://github.com/thiagopxavier/consulta-de-cep',
+    link: 'https://consulta-de-cep-thiagopxavier.vercel.app/',
     description: `Aplicação para verificar o CEP de uma localidade,
     utilizando HTML, CSS e JavaScript, fazendo a requisição para a API da viacep.`,
-    image: 'https://media.discordapp.net/attachments/841726080787677204/1069137438523535441/image.png?width=810&height=456',
+    image: zipCodeImage,
     enable: true,
   },
   // {
@@ -80,6 +86,23 @@ const webProjects = [
     image: passwordImage,
     enable: true,
   },
+  {
+    id: 5,
+    name: 'Relógio',
+    repository: 'https://github.com/thiagopxavier/clock-vite-react-js',
+    description: `Aplicação de relógio simples com
+    horário baseado na maquina do usuário.`,
+    image: clockImage,
+    enable: true,
+  },
+  {
+    id: 6,
+    name: 'Calculadora',
+    repository: 'calculator-thiagopxavier.vercel.app',
+    description: 'Aplicação de calculadora simples',
+    image: calculatorImage,
+    enable: true,
+  },
 ];
 
 const gameProjects = [
@@ -92,7 +115,7 @@ const gameProjects = [
     inimigos são suas armas', foi feito utilizando a Game Engine Godot, com
     a linguagem GDScript. O jogo conta a história da Taruga, e sua luta
     contra a poluição.`,
-    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069116794519949332/image.png?width=810&height=455',
+    image: turtleRevengeImage,
     enable: true,
   },
   {
@@ -103,7 +126,7 @@ const gameProjects = [
     description: `Projeto em grupo da Faculdade, desenvolvido no Godot
     Engine, com a linguagem GDScript, meu papel no grupo era toda a questão
     da programação do jogo, fiz participação na idealização e algumas decisões de arte`,
-    image: 'https://media.discordapp.net/attachments/841726080787677204/1069363691088265246/image.png?width=834&height=451',
+    image: cvsImage,
     enable: true,
   },
   {
@@ -113,7 +136,7 @@ const gameProjects = [
     download: '',
     description: `O jogo conta a história de 'you', o personagem acorda em
     seu quarto, buscando a razão da existência.`,
-    image: 'https://media.discordapp.net/attachments/1040280729801728001/1069133552043692102/image.png?width=810&height=456',
+    image: youImage,
     enable: true,
   },
 ];
