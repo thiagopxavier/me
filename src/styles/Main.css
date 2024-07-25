@@ -40,10 +40,14 @@
 }
 
 .main-p-about {
-  font-size: 25px;
+  font-size: 45px;
   text-align: center;
   font-style: italic;
   margin-bottom: 20px;
+}
+
+.main-p {
+  font-size: 22px;
 }
 
 @media screen and (min-width: 1024px) {

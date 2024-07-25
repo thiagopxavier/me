@@ -22,22 +22,13 @@ class Main extends Component {
         <div className="main-right">
           <div className="main-div-about">
             <p className="main-p-about">
-              Olá, eu sou o Thiago
+              Olá, eu sou Thiago
             </p>
             <p className="main-p">
-              Sou formado na área de Tecnologia em Jogos Digitais,
-              opero na área de modelagem 3D, e desenvolvimento com C#
+              Um desenvolvedor e um eterno estudante
             </p>
-            <br />
-            <p className="main-p">
-              Atualmente estudo desenvolvimento web na
-              {' '}
-              <spam className="spam-strong">Trybe</spam>
-            </p>
-
           </div>
         </div>
-
       </main>
     );
   }
