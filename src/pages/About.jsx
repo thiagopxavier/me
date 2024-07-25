@@ -5,6 +5,7 @@ import ButtonNav from '../components/ButtoNav';
 import { aboutList } from '../data';
 import '../styles/About.css';
 import Contact from '../components/Contact';
+import me from '../images/misc/me.jpg';
 
 class About extends Component {
   render() {
@@ -23,7 +24,7 @@ class About extends Component {
           <div>
             <img
               className="about-my-picture"
-              src="https://i.imgur.com/prbpFVC.jpg"
+              src={ me }
               alt="Minha Foto"
             />
             <Contact />
@@ -36,19 +37,20 @@ class About extends Component {
               Meu nome é
               {' '}
               <spam className="spam-strong">Thiago Xavier</spam>
-              , tenho 23 anos,
+              , tenho 25 anos,
               sou nascido do sangue baiano, mas atualmente moro em São Paulo.
             </p>
             <p
               className="about-p"
             >
-              Atualmente estou estudando desenvolvimento web na
+              Me formei recentemente em desenvolvimento web na
               {' '}
               <spam className="spam-strong">Trybe</spam>
-              , local onde utilizo constantemente conhecimentos de
+              , local onde utilizei constantemente conhecimentos de
               {' '}
               <spam className="spam-strong">JavaSript</spam>
               ,
+              {' '}
               <spam className="spam-strong">React</spam>
               ,
               {' '}
@@ -73,7 +75,7 @@ class About extends Component {
               {' '}
               <spam className="spam-strong">Tecnologia em Jogos Digitais</spam>
               , onde
-              tive oportunidade de aprender principalmente utilização das
+              tive oportunidade de aprender principalmente a utilização das
               linguagens
               {' '}
               <spam className="spam-strong">C#</spam>
@@ -82,7 +84,7 @@ class About extends Component {
               {' '}
               <spam className="spam-strong">GDScript</spam>
               {' '}
-              para criação de jogos, e a
+              para criação de jogos, além de
               modelagem, animação e texturização de
               {' '}
               <spam className="spam-strong">objetos 3D</spam>
@@ -93,10 +95,19 @@ class About extends Component {
               Formação
             </h1>
             <ul>
-              <li>Desenvolvimento Web com HTML - UNINOVE - 2018</li>
               <li>Tecnologia em Jogos Digitais - UNINOVE - 2019</li>
+              <li>Tecnologias para Aplicações Web - Bookplay - 2024</li>
+
+            </ul>
+            <h2 className="about-h2">
+              Cursos
+            </h2>
+
+            <ul>
+              <li>Desenvolvimento Web com HTML - UNINOVE - 2018</li>
               <li>HTML5 e CSS3 - Curso em Vídeo - 2021</li>
-              <li>Desenvolvimento Web - Trybe - *2023</li>
+              <li>Desenvolvimento Web - Trybe - 2023</li>
+
             </ul>
             <hr />
             <h1 className="about-h1">Habilidades</h1>
@@ -108,12 +119,8 @@ class About extends Component {
               <li>Jest</li>
               <li>C#</li>
               <li>GDScript</li>
-              <li>Game Engine: Unity | Godot | Unreal</li>
-              <li>Modelagem 3D: Blender | Maya</li>
-              <li>Sonoplastia: Audacity | FL Studio</li>
             </ul>
           </div>
-
         </div>
       </main>
     );
