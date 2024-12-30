@@ -7,6 +7,8 @@ import turtleRevengeImage from './images/project/turtle-revenge.png';
 import cvsImage from './images/project/cvs.png';
 import youImage from './images/project/you.png';
 
+import notFoundImage from './images/image-not-found.png';
+
 const projectRoute = '/project/web';
 
 const mainList = [
@@ -137,6 +139,15 @@ const gameProjects = [
     description: `O jogo conta a história de 'you', o personagem acorda em
     seu quarto, buscando a razão da existência.`,
     image: youImage,
+    enable: true,
+  },
+  {
+    id: 13,
+    name: 'Expedição',
+    repository: 'https://github.com/thiagopxavier/expedicao',
+    download: '',
+    description: `O jogo conta uma história curta de terror sobre uma pessoa que arranja um novo emprego em uma transportadora amaldiçoada`,
+    image: notFoundImage,
     enable: true,
   },
 ];
