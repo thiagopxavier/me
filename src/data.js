@@ -7,7 +7,7 @@ import turtleRevengeImage from './images/project/turtle-revenge.png';
 import cvsImage from './images/project/cvs.png';
 import youImage from './images/project/you.png';
 
-import notFoundImage from './images/image-not-found.png';
+import notFoundImage from './images/misc/image-not-found.png';
 
 const projectRoute = '/project/web';
 
