@@ -111,7 +111,7 @@ const gameProjects = [
   {
     id: 10,
     name: 'Turle Revenge',
-    repository: '',
+    repository: 'https://thiago-xavier.vercel.app/not-found',
     download: 'https://gamejolt.com/games/turtlerevenge/457276',
     description: `Jogo feito em 1 semana para uma gamejam com o tema 'Seus
     inimigos são suas armas', foi feito utilizando a Game Engine Godot, com
@@ -123,7 +123,7 @@ const gameProjects = [
   {
     id: 11,
     name: 'Caminhoneiros do Vale do Silício',
-    repository: '',
+    repository: 'https://thiago-xavier.vercel.app/not-found',
     download: 'https://drive.google.com/file/d/1fcDHDFkWXCRywZm6rCf-4KNHEOoa2kc2/view?usp=share_link',
     description: `Projeto em grupo da Faculdade, desenvolvido no Godot
     Engine, com a linguagem GDScript, meu papel no grupo era toda a questão
@@ -135,7 +135,7 @@ const gameProjects = [
     id: 12,
     name: 'You',
     repository: 'https://github.com/thiagopxavier/you',
-    download: '',
+    download: 'https://thiago-xavier.vercel.app/not-found',
     description: `O jogo conta a história de 'you', o personagem acorda em
     seu quarto, buscando a razão da existência.`,
     image: youImage,
@@ -144,11 +144,11 @@ const gameProjects = [
   {
     id: 13,
     name: 'Expedição',
-    repository: 'https://github.com/thiagopxavier/expedicao',
-    download: '',
+    repository: 'https://thiago-xavier.vercel.app/not-found',
+    download: 'https://thiago-xavier.vercel.app/not-found',
     description: `O jogo conta uma história curta de terror
-    sobre uma pessoa que arranja umnovo emprego em
-    uma transportadora amaldiçoada`,
+    sobre uma pessoa que arranja um novo emprego em
+    uma transportadora amaldiçoada.`,
     image: notFoundImage,
     enable: true,
   },
