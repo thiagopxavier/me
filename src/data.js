@@ -146,8 +146,9 @@ const gameProjects = [
     name: 'Expedição',
     repository: 'https://github.com/thiagopxavier/expedicao',
     download: '',
-    description: `O jogo conta uma história curta de terror sobre uma pessoa que arranja um
-    novo emprego em uma transportadora amaldiçoada`,
+    description: `O jogo conta uma história curta de terror
+    sobre uma pessoa que arranja umnovo emprego em
+    uma transportadora amaldiçoada`,
     image: notFoundImage,
     enable: true,
   },
