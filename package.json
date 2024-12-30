@@ -1,7 +1,6 @@
 {
   "name": "portfolio-thiago",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -18,12 +17,6 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -36,9 +29,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {
-    "eslint": "^8.32.0",
-    "eslint-config-trybe-frontend": "^1.6.0",
-    "eslint-plugin-react": "^7.32.1"
+  "devDependencies": {  
   }
 }
