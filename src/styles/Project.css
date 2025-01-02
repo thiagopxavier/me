@@ -31,6 +31,7 @@
   width: 35px;
   margin-top: 5px;
 }
+
 .button-about {
   display: none;
 }
@@ -60,6 +61,7 @@
   .image-card-details {
     margin-left: 40px;
     border-radius: 20px;
+    margin: auto;
     max-width: 60%;
   }
 
@@ -70,8 +72,7 @@
   .description {
     /* text-indent: 30px; */
     line-height: 22px;
-    margin: auto;
-    margin-top: 0;
+    margin: 0;
     width: 30%;
 
   }
